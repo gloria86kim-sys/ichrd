@@ -8,7 +8,7 @@ export default function Activities() {
     <>
       <PageHead eyebrow="Activities" title="연구·교육·협력으로 창의적 교육 혁신과 인재육성을 선도합니다" />
       <section className="section">
-        <div className="container cards2">
+        <div className="container cards3">
           {activities.map((a) => (
             <div key={a.title} className="card">
               <h3>{a.title} <small>{a.en}</small></h3>

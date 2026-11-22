@@ -22,6 +22,7 @@ export const nav = [
   { href: "/people/", label: "사람들" },
   { href: "/activities/", label: "ICHRD 활동" },
   { href: "/archives/", label: "ICHRD 여정" },
+  { href: "/gallery/", label: "갤러리" },
 ];
 
 export const stats = [
@@ -93,41 +94,31 @@ export const members = [
 
 export const activities = [
   {
+    title: "연구",
+    en: "Research",
+    items: [
+      "『창의인재혁신연구』 학술지 발간을 통한 연구 성과 공유 및 확산",
+      "디자인씽킹, PBL, 액션러닝 등 혁신 교수법에 대한 실천 기반 연구",
+      "퍼실리테이터 역량 정의 및 연수 효과성 검증을 위한 조사 및 분석",
+    ],
+  },
+  {
     title: "교육",
     en: "Education",
     items: [
       "FutureMaker Project 등 디자인씽킹 기반 창의융합 교육 프로그램 개발 및 운영",
       "모듈형 교안, 도구, 교사용 매뉴얼 등 실천 중심 교육 자료 개발",
-      "퍼실리테이터 양성을 위한 연수 기획 및 운영",
+      "퍼실리테이터 양성을 위한 연수 프로그램 기획 및 운영",
     ],
   },
   {
     title: "협력",
     en: "Collaborations",
     items: [
-      "글로벌 공동 연구 및 교육 협력",
-      "지역사회 협력 강화",
-      "에듀테크 글로벌 트렌드 공유 학술대회 정례화",
-      "창의인재개발 협력 네트워크 확장",
+      "네덜란드 폰티스대학 등과의 글로벌 공동 연구 및 교육 협력",
+      "용인시청소년미래재단 등 지역사회 협력 강화",
+      "에듀테크 글로벌 트렌드 공유 학술대회 정례화 및 네트워크 확장",
     ],
   },
 ];
 
-// ICHRD 여정(소식). 새 소식은 맨 위에 추가하세요.
-export const news = [
-  {
-    date: "2026-01-08",
-    title: "창의인재개발연구소 포럼 개최 (Day 2)",
-    summary: "AI-X 시대의 학습과 성장을 다시 묻는 두 번째 포럼을 개최하였습니다.",
-  },
-  {
-    date: "2026-01-07",
-    title: "창의인재개발연구소 포럼 개최 (Day 1)",
-    summary: "AI 전환 시대의 교육 혁신과 실천 사례를 공유하는 포럼을 온·오프라인으로 성공적으로 개최하였습니다.",
-  },
-  {
-    date: "2025",
-    title: "2025년 Global Insights Forum: Future Pulse 개최",
-    summary: "Tech's Enter Industry Topography, 창의인재개발연구소와 함께한 글로벌 포럼.",
-  },
-];

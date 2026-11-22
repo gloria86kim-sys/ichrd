@@ -1,6 +1,7 @@
 import Link from "next/link";
 import InkReveal from "@/components/InkReveal";
-import { site, stats, values, history, activities, news } from "@/data/site";
+import { site, stats, values, history, activities } from "@/data/site";
+import { getPosts } from "@/lib/posts";
 
 export default function Home() {
   return (
@@ -60,7 +61,7 @@ export default function Home() {
         <div className="container">
           <p className="eyebrow">What we do</p>
           <h2>연구·교육·협력으로 창의적 교육 혁신을 선도합니다</h2>
-          <div className="cards2">
+          <div className="cards3">
             {activities.map((a) => (
               <div key={a.title} className="card">
                 <h3>{a.title} <small>{a.en}</small></h3>
@@ -95,13 +96,16 @@ export default function Home() {
             </div>
             <Link href="/archives/" className="pill outline">전체 보기 →</Link>
           </div>
-          <div className="news">
-            {news.slice(0, 3).map((n) => (
-              <article key={n.title} className="news-item">
-                <time>{n.date}</time>
-                <h3>{n.title}</h3>
-                <p>{n.summary}</p>
-              </article>
+          <div className="post-grid">
+            {getPosts().slice(0, 3).map((p) => (
+              <Link key={p.slug} href={`/archives/${p.slug}/`} className="post-card">
+                <div className="post-thumb">{p.thumb && <img src={p.thumb} alt="" loading="lazy" />}</div>
+                <div className="post-meta">
+                  {p.category && <span className="tag">{p.category}</span>}
+                  <time>{p.date}</time>
+                </div>
+                <h3>{p.title}</h3>
+              </Link>
             ))}
           </div>
         </div>
