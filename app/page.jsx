@@ -41,7 +41,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section dark">
+      <section className="section">
         <div className="container">
           <p className="eyebrow">Core Values</p>
           <h2>다섯 가지 핵심가치</h2>

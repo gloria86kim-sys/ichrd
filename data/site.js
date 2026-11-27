@@ -53,6 +53,9 @@ export const history = [
 
 export const greeting = {
   name: "전은화",
+  photo: "/images/people/greeting.jpg",        // 인사말 옆 사진
+  photoAlt: "전은화 연구소장",
+  signature: "/images/people/signature.svg",   // 맺음말의 손글씨 서명 (벡터)
   paragraphs: [
     "우리 연구소는 디자인씽킹 기반의 교육 혁신을 통해 미래사회를 이끌어갈 창의적 인재를 육성하고자 다양한 연구와 실천적 프로그램을 추진해오고 있습니다. 빠르게 변화하는 시대 속에서 교육은 지식 전달을 넘어서, 문제 해결력, 창의적 사고, 협업 역량을 기르는 방향으로 나아가야 합니다.",
     "창의인재개발연구소는 이러한 교육의 전환을 위해 혁신 교수학습 모델 개발, 퍼실리테이터 양성과 연수 프로그램 운영, 국내외 연구 협력 및 네트워크 구축, 에듀테크 트렌드 공유 및 학술대회 정례화 등 다양한 활동을 선도하고 있습니다.",
@@ -60,36 +63,42 @@ export const greeting = {
   ],
 };
 
+// 사진 파일은 public/images/people/ 폴더에 있습니다.
+// 사진을 바꾸려면 같은 이름(person-01.jpg 등)으로 덮어쓰면 됩니다.
+// 정사각형 사진을 넣으면 화면에서 자동으로 원형으로 잘립니다.
 export const directors = [
   {
     role: "연구소장",
     name: "전은화 교수",
+    photo: "/images/people/person-01.jpg",
     email: "ehchon@dankook.ac.kr",
     lines: ["現 단국대학교 교육혁신원장", "現 단국대학교 자유교양대학 교수", "교육공학 박사"],
   },
   {
     role: "학술분과위원장",
     name: "서응교 교수",
+    photo: "/images/people/person-02.jpg",
     email: "eungkyosuh@dankook.ac.kr",
     lines: ["現 단국대학교 경영학부 교수", "前 단국대학교 디지털정보원장", "경영학 박사"],
   },
   {
     role: "운영분과위원장",
     name: "정효정 교수",
+    photo: "/images/people/person-03.jpg",
     email: "hyojung.jung@dankook.ac.kr",
     lines: ["現 단국대학교 바이오헬스융합학부 교수", "現 단국대학교 혁신융합대학 교수학습혁신센터장", "교육공학 박사"],
   },
 ];
 
 export const members = [
-  { name: "김민정 교수", area: "학술연구", org: "단국대학교 사범대학 교직교육과", degree: "교육공학 박사" },
-  { name: "김언조 교수", area: "학술연구", org: "단국대학교 교육대학원 영어교육 전공", degree: "문학박사(영어영문학)" },
-  { name: "김태형 교수", area: "학술연구", org: "단국대학교 대학원 데이터지식서비스공학과", degree: "미래도시융합공학 박사" },
-  { name: "엄기표 교수", area: "학술연구", org: "단국대학교 자유교양대학", degree: "문학박사(사학)" },
-  { name: "윤미선 교수", area: "학술연구", org: "단국대학교 사범대학 교직교육과", degree: "교육심리학 박사" },
-  { name: "황윤자 교수", area: "학술연구·교육", org: "단국대학교 공학교육혁신센터", degree: "교육공학 박사" },
-  { name: "이정훈 교수", area: "학술연구·교육", org: "단국대학교 자유교양대학", degree: "교육공학 박사" },
-  { name: "김혜영 교수", area: "학술연구·교육", org: "단국대학교 교육혁신원", degree: "교육공학 박사" },
+  { name: "김민정 교수", photo: "/images/people/person-04.jpg", area: "학술연구", org: "단국대학교 사범대학 교직교육과", degree: "교육공학 박사" },
+  { name: "김언조 교수", photo: "/images/people/person-05.jpg", area: "학술연구", org: "단국대학교 교육대학원 영어교육 전공", degree: "문학박사(영어영문학)" },
+  { name: "김태형 교수", photo: "/images/people/person-06.jpg", area: "학술연구", org: "단국대학교 대학원 데이터지식서비스공학과", degree: "미래도시융합공학 박사" },
+  { name: "엄기표 교수", photo: "/images/people/person-07.jpg", area: "학술연구", org: "단국대학교 자유교양대학", degree: "문학박사(사학)" },
+  { name: "윤미선 교수", photo: "/images/people/person-08.jpg", area: "학술연구", org: "단국대학교 사범대학 교직교육과", degree: "교육심리학 박사" },
+  { name: "황윤자 교수", photo: "/images/people/person-09.jpg", area: "학술연구·교육", org: "단국대학교 공학교육혁신센터", degree: "교육공학 박사" },
+  { name: "이정훈 교수", photo: "/images/people/person-10.jpg", area: "학술연구·교육", org: "단국대학교 자유교양대학", degree: "교육공학 박사" },
+  { name: "김혜영 교수", photo: "/images/people/person-11.jpg", area: "학술연구·교육", org: "단국대학교 교육혁신원", degree: "교육공학 박사" },
 ];
 
 export const activities = [

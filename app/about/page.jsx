@@ -21,7 +21,7 @@ export default function About() {
           ))}
         </div>
       </section>
-      <section className="section dark">
+      <section className="section">
         <div className="container">
           <p className="eyebrow">Core Values</p>
           <h2>창의인재개발연구소가 집중하는 핵심가치</h2>
