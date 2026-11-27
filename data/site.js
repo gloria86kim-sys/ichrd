@@ -63,33 +63,33 @@ export const greeting = {
 export const directors = [
   {
     role: "연구소장",
-    name: "전은화 교수",
+    name: "전은화 교수", photo: "/images/people/person-01.jpg",
     email: "ehchon@dankook.ac.kr",
     lines: ["現 단국대학교 교육혁신원장", "現 단국대학교 자유교양대학 교수", "교육공학 박사"],
   },
   {
     role: "학술분과위원장",
-    name: "서응교 교수",
+    name: "서응교 교수", photo: "/images/people/person-02.jpg",
     email: "eungkyosuh@dankook.ac.kr",
     lines: ["現 단국대학교 경영학부 교수", "前 단국대학교 디지털정보원장", "경영학 박사"],
   },
   {
     role: "운영분과위원장",
-    name: "정효정 교수",
+    name: "정효정 교수", photo: "/images/people/person-03.jpg",
     email: "hyojung.jung@dankook.ac.kr",
     lines: ["現 단국대학교 바이오헬스융합학부 교수", "現 단국대학교 혁신융합대학 교수학습혁신센터장", "교육공학 박사"],
   },
 ];
 
 export const members = [
-  { name: "김민정 교수", area: "학술연구", org: "단국대학교 사범대학 교직교육과", degree: "교육공학 박사" },
-  { name: "김언조 교수", area: "학술연구", org: "단국대학교 교육대학원 영어교육 전공", degree: "문학박사(영어영문학)" },
-  { name: "김태형 교수", area: "학술연구", org: "단국대학교 대학원 데이터지식서비스공학과", degree: "미래도시융합공학 박사" },
-  { name: "엄기표 교수", area: "학술연구", org: "단국대학교 자유교양대학", degree: "문학박사(사학)" },
-  { name: "윤미선 교수", area: "학술연구", org: "단국대학교 사범대학 교직교육과", degree: "교육심리학 박사" },
-  { name: "황윤자 교수", area: "학술연구·교육", org: "단국대학교 공학교육혁신센터", degree: "교육공학 박사" },
-  { name: "이정훈 교수", area: "학술연구·교육", org: "단국대학교 자유교양대학", degree: "교육공학 박사" },
-  { name: "김혜영 교수", area: "학술연구·교육", org: "단국대학교 교육혁신원", degree: "교육공학 박사" },
+  { name: "김민정 교수", photo: "/images/people/person-04.jpg", area: "학술연구", org: "단국대학교 사범대학 교직교육과", degree: "교육공학 박사" },
+  { name: "김언조 교수", photo: "/images/people/person-05.jpg", area: "학술연구", org: "단국대학교 교육대학원 영어교육 전공", degree: "문학박사(영어영문학)" },
+  { name: "김태형 교수", photo: "/images/people/person-06.jpg", area: "학술연구", org: "단국대학교 대학원 데이터지식서비스공학과", degree: "미래도시융합공학 박사" },
+  { name: "엄기표 교수", photo: "/images/people/person-07.jpg", area: "학술연구", org: "단국대학교 자유교양대학", degree: "문학박사(사학)" },
+  { name: "윤미선 교수", photo: "/images/people/person-08.jpg", area: "학술연구", org: "단국대학교 사범대학 교직교육과", degree: "교육심리학 박사" },
+  { name: "황윤자 교수", photo: "/images/people/person-09.jpg", area: "학술연구·교육", org: "단국대학교 공학교육혁신센터", degree: "교육공학 박사" },
+  { name: "이정훈 교수", photo: "/images/people/person-10.jpg", area: "학술연구·교육", org: "단국대학교 자유교양대학", degree: "교육공학 박사" },
+  { name: "김혜영 교수", photo: "/images/people/person-11.jpg", area: "학술연구·교육", org: "단국대학교 교육혁신원", degree: "교육공학 박사" },
 ];
 
 export const activities = [

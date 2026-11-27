@@ -28,6 +28,7 @@ export default function People() {
           <div className="cards3">
             {directors.map((d) => (
               <div key={d.name} className="card person">
+                {d.photo && <img className="avatar" src={d.photo} alt={`${d.name} 사진`} loading="lazy" />}
                 <span className="role">{d.role}</span>
                 <h3>{d.name}</h3>
                 <a href={`mailto:${d.email}`}>{d.email}</a>
@@ -39,6 +40,7 @@ export default function People() {
           <div className="cards4">
             {members.map((m) => (
               <div key={m.name} className="card person sm">
+                {m.photo && <img className="avatar" src={m.photo} alt={`${m.name} 사진`} loading="lazy" />}
                 <span className="role">{m.area}</span>
                 <h3>{m.name}</h3>
                 <p>{m.org}</p>

@@ -88,6 +88,8 @@ h3 { font-size: 20px; font-weight: 700; }
 .card li { margin-bottom: 8px; color: #3a3846; }
 .person .role { display: inline-block; font-size: 12px; font-weight: 700; color: var(--purple); background: var(--soft); padding: 4px 10px; border-radius: 999px; margin-bottom: 12px; }
 .person a { display: block; color: var(--muted); font-size: 14px; margin: 4px 0; }
+.person .avatar { display: block; width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 18px; border: 3px solid var(--soft); }
+.person.sm .avatar { width: 96px; height: 96px; }
 .person.sm { padding: 24px; }
 .person.sm p { font-size: 14px; margin-top: 6px; }
 
